@@ -172,17 +172,18 @@ main section{
     }
 
     /* footer styles */
-   footer{
+
+footer{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
    } 
 
    .footer-column{
-    width: 50px;
+    width: 50%;
    }
 
-   footer input["text"] footer input["email"] footer input["textarea"] {
+footer input[type="text"], footer input[type="email"], footer input [type="textarea"]{
     height: 64px;
     border-radius: 5px;
     background-color: white;
